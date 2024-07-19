@@ -19,3 +19,73 @@ code {
 .h-79{
   height: 70px;
 }
+
+/* top header */
+
+.top-header {
+  padding: 0 20px;
+  background-color: #4343b7;
+  height: 4rem;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: aliceblue;
+  padding-top: .8rem;
+}
+
+/* dashbroad */
+
+.todays-data-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.todays-data-container h2 {
+  font-size: 18px;
+  color: #6a0dad;
+  margin-bottom: 20px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+/*  sidebar */
+
+.sidebar {
+  background-color: #3333cc;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.menu-item {
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.menu-item a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+
+.menu-item a:hover {
+  color: #dddddd;
+}
+
+

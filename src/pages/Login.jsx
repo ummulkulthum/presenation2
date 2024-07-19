@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const LoginPage = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const navigator = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Add your login logic here
+
+    //  go to dashbroad
+    navigator("/dashboard");
     console.log('Username:', username);
     console.log('Password:', password);
   };

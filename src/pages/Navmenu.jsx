@@ -31,6 +31,7 @@ function Navmenu() {
                         <li className="nav-item ms-2 d-none d-md-inline" >
                             <Link to="/signup" className="btn btn-outline-success text-white">SIGN IN</Link>
                         </li>
+
                     </ul>
                 </div>
             </div>
